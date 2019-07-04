@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseLogin</string>
+    <string name="texto_email">Ingrese un e-mail</string>
+    <string name="texto_contraseña">Ingrese contraseña</string>
+    <string name="nombre_btn_resgistrar">Registrar Usuario</string>
+    <string name="boton_login">Login</string>
+    <string name="boton_logout">Logout</string>
+</resources>

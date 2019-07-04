@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+
+<LinearLayout
+
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/imageViewFirebase"
+            android:layout_width="400dp"
+            android:layout_height="80dp"
+            android:src="@drawable/firebase_logo"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <EditText
+            android:layout_marginTop="30dp"
+            android:id="@+id/editTextCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:hint="@string/texto_email" />
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:id="@+id/editTextContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:inputType="textPassword"
+            android:hint="@string/texto_contraseña" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/botonRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/nombre_btn_resgistrar"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/botonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="@string/boton_login"/>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>
